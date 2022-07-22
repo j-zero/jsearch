@@ -1,0 +1,475 @@
+{
+"google": {
+            "name": "Google",
+            "impressum": "GOOGLE&trade; so wie das Google Logo sind Marken von Google Inc.",
+            "hotname": "^g(?:$| (.*))",
+            "row": 0,
+            "image": "images/google.ico",
+            "uri": "https://www.google.de/search?q=%s",
+            "encoding": "utf-8"
+        },
+"google-images": {
+            "name": "Google Bilder",
+            "impressum": "",
+            "hotname": "^gi(?:$| (.*))",
+            "row": 1,
+            "image": "images/google.ico",
+            "uri": "https://www.google.de/search?tbm=isch&q=%s",
+            "encoding": "utf-8"
+        },
+"google-videos": {
+            "name": "Google Videos",
+            "impressum": "",
+            "hotname": "^gv(?:$| (.*))",
+            "row": 1,
+            "image": "images/google.ico",
+            "uri": "https://www.google.de/search?tbs=vid:1&q=%s",
+            "encoding": "utf-8"
+        },  
+"google-maps": {
+            "name": "Google Maps",
+            "impressum": "",
+            "hotname": "^gm(?:$| (.*))",
+            "row": 0,
+            "image": "http://maps.gstatic.com/favicon3.ico",
+            "uri": "https://maps.google.de/maps?q=%s",
+            "encoding": "utf-8"
+        },  
+"google-gl": {
+            "name": "Google: Good Luck!",
+            "impressum": "",
+            "hotname": "^gl(?:$| (.*))",
+            "row": 1,
+            "image": "images/google.ico",
+            "uri": "https://www.google.de/search?btnI=1&q=%s",
+            "encoding": "utf-8"
+        },
+"google-translate": {
+            "name": "Google Translate",
+            "impressum": "",
+            "hotname": "^gt(?:$| (.*))",
+            "row": 1,
+            "image": "images/google.ico",
+            "uri": "https://translate.google.de/?hl=de#en|de|",
+            "encoding": "utf-8"
+        },
+"google-play": {
+            "name": "Google Play",
+            "impressum": "GOOGLE PLAY&trade; sowie das Google play Logo sind Marken von Google Inc.",
+            "hotname": "^play(?:$| (.*))",
+            "row": 1,
+            "image": "images/play.ico",
+            "uri": "https://play.google.com/store/search?q=%s",
+            "encoding": "utf-8"
+        },
+ "wikipedia": {
+            "name": "Wikipedia",
+            "impressum": "WIKIPEDIA&#174; ist eine eingetragene Marke der Wikimedia Foundation Inc.",
+            "hotname": "^w(?:$| (.*))",
+            "row": 0,
+            "image": "images/wikipedia.ico",
+            "uri": "http://de.wikipedia.org/w/index.php?&search=%s",
+            "encoding": "utf-8"
+        },
+"wolframalpha": {
+            "name": "Wolfram|Alpha",
+            "impressum": "WOLFRAM ALPHA&trade; sowie das Wolfram Alpha Logo sind Marken der Wolfram Research Company",
+            "hotname": "^wa(?:$| (.*))",
+            "row": 0,
+            "image": "http://www.wolframalpha.com/favicon.ico",
+            "uri": "http://www.wolframalpha.com/input/?i=%s",
+            "encoding": "utf-8"
+        },
+"leo-ende": {
+            "name": "LEO Deutsch-English",
+            "impressum": "LEO ist ein Online-Service der LEO GmbH",
+            "hotname": "^ende(?:$| (.*))",
+            "row": 1,
+            "image": "images/ende.ico",
+            "uri": "http://dict.leo.org/ende?search=%s",
+            "encoding": "utf-8"
+        },
+"ebay": {
+            "name": "eBay",
+            "impressum": "EBAY&trade; sowie das eBay Logo sind Marken der eBay Inc.",
+            "hotname": "^e(?:$| (.*))",
+            "row": 0,
+            "image": "http://ebay.de/favicon.ico",
+            "uri": "http://shop.ebay.de/i.html?_nkw=%s",
+            "encoding": "utf-8"
+        },
+"amazon": {
+            "name": "Amazon.de",
+            "impressum": "AMAZON.DE&trade; sowie das Amazon.de Logo sind Marken der Amazon.de GmbH",
+            "hotname": "^a(?:$| (.*))",
+            "row": 1,
+            "image": "http://www.amazon.de/favicon.ico",
+            "uri": "http://www.amazon.de/s/ref=nb_ss?&field-keywords=%s",
+            "encoding": "utf-8"
+        },
+"leo-frde": {
+            "name": "LEO Deutsch-Franz&ouml;sisch",
+            "impressum": "",
+            "hotname": "^frde(?:$| (.*))",
+            "row": 1,
+            "image": "images/frde.ico",
+            "uri": "http://dict.leo.org/frde?search=%s",
+            "encoding": "utf-8"
+        },
+"leo-esde": {
+            "name": "LEO Deutsch-Spanisch",
+            "impressum": "",
+            "hotname": "^esde(?:$| (.*))",
+            "row": 1,
+            "image": "images/esde.ico",
+            "uri": "http://dict.leo.org/esde?search=%s",
+            "encoding": "utf-8"
+        },
+"leo-itde": {
+            "name": "LEO Deutsch-Italienisch",
+            "impressum": "",
+            "hotname": "^itde(?:$| (.*))",
+            "row": 1,
+            "image": "images/itde.ico",
+            "uri": "http://dict.leo.org/itde?search=%s",
+            "encoding": "utf-8"
+        },
+"leo-chde": {
+            "name": "LEO Deutsch-Chinesisch",
+            "impressum": "",
+            "hotname": "^chde(?:$| (.*))",
+            "row": 1,
+            "image": "images/chde.ico",
+            "uri": "http://dict.leo.org/chde?search=%s",
+            "encoding": "utf-8"
+        },
+"bing": {
+            "name": "Bing",
+            "impressum": "BING&trade; sowie das Bing Logo sind Marken der Microsoft Corporation",
+            "hotname": "^bing(?:$| (.*))",
+            "row": 1,
+            "image": "http://www.bing.com/favicon.ico",
+            "uri": "http://www.bing.com/search?q=%s",
+            "encoding": "utf-8"
+        },
+"metager": {
+            "name": "MetaGer",
+            "impressum": "MetaGer wird bereitgestellt vom Institut für Suchmaschinen-Technologie des SUMA-EV - Verein für freien Wissenszugang (e.V.) in Kooperation mit der Leibniz Universität Hannover",
+            "hotname": "^mg(?:$| (.*))",
+            "row": 1,
+            "image": "https://metager.de/favicon.ico",
+            "uri": "http://meta.rrzn.uni-hannover.de/meta/cgi-bin/meta.ger1?eingabe=%s",
+            "encoding": "utf-8"
+        },
+"php.net": {
+            "name": "PHP.net",
+            "impressum": "PHP und das PHP-Logo sind Marken von The PHP Group",
+            "hotname": "^php(?:$| (.*))",
+            "row": 1,
+            "image": "http://php.net/favicon.ico",
+            "uri": "http://de1.php.net/manual-lookup.php?lang=de&pattern=%s&scope=quickref",
+            "encoding": "utf-8"
+        },  
+"mysql": {
+            "name": "MySQL",
+            "impressum": "MYSQL&trade; sowie das MySQL Logo sind Marken von Oracle Corp.",
+            "hotname": "^mysql(?:$| (.*))",
+            "row": 1,
+            "image": "http://dev.mysql.com/favicon.ico",
+            "uri": "https://search.oracle.com/search/search?q=%s&group=MySQL",
+            "encoding": "utf-8"
+        },  
+"perldoc": {
+            "name": "PerlDoc",
+            "impressum": "",
+            "hotname": "^perl(?:$| (.*))",
+            "row": 1,
+            "image": "images/perldoc.ico",
+            "uri": "http://perldoc.perl.org/search.html?q=%s",
+            "encoding": "utf-8"
+        },  
+"cpan": {
+            "name": "CPAN",
+            "impressum": "CPAN is a repository of modules for the Perl programming language.",
+            "hotname": "^cpan(?:$| (.*))",
+            "row": 1,
+            "image": "http://search.cpan.org/favicon.ico",
+            "uri": "http://search.cpan.org/search?mode=all&query=%s",
+            "encoding": "utf-8"
+        },
+"metacpan": {
+            "name": "meta::cpan",
+            "impressum": "MetaCPAN.org is a non-profit, open source search service for the CPAN",
+            "hotname": "^metacpan(?:$| (.*))",
+            "row": 1,
+            "image": "https://metacpan.org/favicon.ico",
+            "uri": "https://metacpan.org/search?q=%s",
+            "encoding": "utf-8"
+        },    
+"w3cval": {
+            "name": "W3C Validator",
+            "impressum": "W3C&reg; sowie das W3C Logo sind Marken des World Wide Web Consortiums",
+            "hotname": "^w3c(?:$| (.*))",
+            "row": 1,
+            "image": "http://validator.w3.org/favicon.ico",
+            "uri": "http://validator.w3.org/check?uri=",
+            "encoding": "utf-8"
+        },  
+"archive.org": {
+            "name": "Archive.org",
+            "impressum": "Archive.org und das Archive.org Logo sind Marken von Internet Archive, San Francisco CA",
+            "hotname": "^archive(?:$| (.*))",
+            "row": 1,
+            "image": "https://archive.org/favicon.ico",
+            "uri": "http://www.archive.org/search.php?query=",
+            "encoding": "utf-8"
+        },  
+"wayback-machine": {
+            "name": "Wayback Machine",
+            "impressum": "Wayback Machine und das Wayback Machine Logo sind Marken von Internet Archive, San Francisco CA",
+            "hotname": "^wayback(?:$| (.*))",
+            "row": 1,
+            "image": "http://archive.org/favicon.ico",
+            "uri": "http://web.archive.org/web/*/",
+            "encoding": "utf-8"
+        },    
+"rfc-1234": {
+            "name": "RFC Name",
+            "impressum": "RFC-Editor ist eine Gruppe der ISOC",
+            "hotname": "^rfc ([Rr][Ff][Cc]\\d+)",
+            "row": 1,
+            "image": "images/rfc.png",
+            "uri": "http://www.rfc-editor.org/search/rfc_search_detail.php?rfc=%s",
+            "encoding": "utf-8"
+        },  
+"rfc-search": {
+            "name": "RFC Search",
+            "impressum": "RFC-Editor ist eine Gruppe der ISOC",
+            "hotname": "^rfc(?:$| (.*))",
+            "row": 1,
+            "image": "images/rfc.png",
+            "uri": "http://www.rfc-editor.org/search/rfc_search_detail.php?title=%s",
+            "encoding": "utf-8"
+        },  
+"imdb": {
+            "name": "IMDb",
+            "impressum": "IMDb und das IMDb Logo sind Eigentum vom amazon.com",
+            "hotname": "^imdb(?:$| (.*))",
+            "row": 1,
+            "image": "images/imdb.png",
+            "uri": "http://www.imdb.de/find?s=all&q=%s",
+            "encoding": "utf-8",
+            "replacements": { "%2B": "+", " ": "+" }   
+            
+        },  
+ "wikipedia-en": {
+            "name": "Wikipedia (Englisch)",
+            "impressum": "WIKIPEDIA&#174; ist eine eingetragene Marke der Wikimedia Foundation Inc.",
+            "hotname": "^wiki-en(?:$| (.*))",
+            "row": 1,
+            "image": "",
+            "uri": "http://en.wikipedia.org/w/index.php?&search=%s",
+            "encoding": "utf-8"
+        },
+ "youtube": {
+            "name": "YouTube",
+            "impressum": "YOUTUBE&trade; sowie das YouTube Logo sind Marken von Google Inc.",
+            "hotname": "^yt(?:$| (.*))",
+            "row": 1,
+            "image": "images/youtube.ico",
+            "uri": "http://www.youtube.com/results?search_query=%s",
+            "encoding": "utf-8"
+        },
+ "ofdb": {
+            "name": "OFDb",
+            "impressum": "OFDb sowie das OFDB Logo sind Eigentum von OFDb.de e. K.",
+            "hotname": "^ofdb(?:$| (.*))",
+            "row": 1,
+            "image": "",
+            "uri": "http://www.ofdb.de/view.php?page=suchergebnis&SText=%s",
+            "encoding": "utf-8"
+        },
+ "shoutcast": {
+            "name": "Shoutcast",
+            "impressum": "SHOUTCAST&trade; sowie das SHOUTcast Logo sind Marken von NULLSOFT Inc.",
+            "hotname": "^shoutcast(?:$| (.*))",
+            "row": 1,
+            "image": "",
+            "uri": "http://www.shoutcast.com/Internet-Radio/%s",
+            "encoding": "utf-8"
+        },
+ "sourceforge": {
+            "name": "SourceForge",
+            "impressum": "SourceForge so wie das SourceForge Logo sind Eigentum von Dice Holdings, Inc.",
+            "hotname": "^sforge(?:$| (.*))",
+            "row": 1,
+            "image": "",
+            "uri": "http://sourceforge.net/directory/os:windows/freshness:recently-updated/?q=%s",
+            "encoding": "utf-8"
+        },
+ "twitter": {
+            "name": "Twitter",
+            "impressum": "TWITTER&trade; sowie das Twitter Logo sind Marken von Twitter Inc.",
+            "hotname": "^twitter(?:$| (.*))",
+            "row": 1,
+            "image": "",
+            "uri": "http://twitter.com/search?q=%s",
+            "encoding": "utf-8"
+        },
+"britannica": {
+            "name": "Encyclop&aelig;dia Britannica",
+            "impressum": "Encyclop&aelig;dia Britannica sowie das Encyclop&aelig;dia Britannica Logo sind Marken von Encyclop&aelig;dia Britannica Inc.",
+            "hotname": "^eb(?:$| (.*))",
+            "row": 1,
+            "image": "",
+            "uri": "http://www.britannica.com/search?query=%s",
+            "encoding": "utf-8"
+        },
+"selfhtml": {
+            "name": "SELFHTML",
+            "impressum": "SELFHTML und das SELFHTML Logo sind Eigentum von SELFHTML e.V.",
+            "hotname": "^selfhtml(?:$| (.*))",
+            "row": 1,
+            "image": "",
+            "uri": "http://de.selfhtml.org/navigation/suche/index.htm?Suchanfrage=%s",
+            "encoding": "utf-8"
+        },
+"w3schools": {
+            "name": "W3Schools",
+            "impressum": "W3Schools und das W3Schools Logo sind Eigentum von Refsnes Data",
+            "hotname": "^html(?:$| (.*))",
+            "row": 1,
+            "image": "",
+            "uri": "https://www.google.de/search?q=site:w3schools.com %s",
+            "encoding": "utf-8"
+        },
+"ultimate-guitar": {
+            "name": "Ultimate Guitar",
+            "impressum": "Ultimate-Guitar.com und das Ultimate-Guitar.com Logo sind Eigentum von Ultimate-Guitar.com",
+            "hotname": "^ug(?:$| (.*))",
+            "row": 1,
+            "image": "",
+            "uri": "http://www.ultimate-guitar.com/search.php?search_type=title&value=%s",
+            "encoding": "utf-8"
+        },
+
+"duden": {
+            "name": "Duden.de",
+            "impressum": "DUDEN.DE ist ein Gemeinschaftsprojekt der Verlage Bibliographisches Institut GmbH und Duden Paetec GmbH.",
+            "hotname": "^duden(?:$| (.*))",
+            "row": 1,
+            "image": "",
+            "uri": "http://www.duden.de/suche/index.php?suchbereich=mixed&suchwort=%s",
+            "encoding": "utf-8"
+        },
+"serienjunkies": {
+            "name": "SerienJunkies.de",
+            "impressum": "SerienJunkies.de und das SerienJunkies.de Logo sind Eigentum der SerienJunkies.de KG",
+            "hotname": "^sj(?:$| (.*))",
+            "row": 1,
+            "image": "",
+            "uri": "http://www.serienjunkies.de/suchen.php?s=%s",
+            "encoding": "utf-8"
+        },
+"duckduckgo": {
+            "name": "DuckDuckGo",
+            "impressum": "DuckDuckGo und das DuckDuckGo Logo sind Eigentum der Duck Duck Go Inc.",
+            "hotname": "^d(?:$| (.*))",
+            "row": 1,
+            "image": "images/ddg.ico",
+            "uri": "https://duckduckgo.com/?q=%s",
+            "encoding": "utf-8"
+        },
+"stackoverflow": {
+            "name": "stackoverflow",
+            "impressum": "stackoverflow und das stackoverflow Logo sind Eigentum der Stack Exchange Inc.",
+            "hotname": "^so(?:$| (.*))",
+            "row": 1,
+            "image": "",
+            "uri": "http://stackoverflow.com/search?q=%s",
+            "encoding": "utf-8"
+        },
+"serverfault": {
+            "name": "serverfault",
+            "impressum": "serverfault und das serverfault Logo sind Eigentum der Stack Exchange Inc.",
+            "hotname": "^sf(?:$| (.*))",
+            "row": 1,
+            "image": "",
+            "uri": "http://serverfault.com/search?q=%s",
+            "encoding": "utf-8"
+        },
+"superuser": {
+            "name": "superuser",
+            "impressum": "superuser und das superuser Logo sind Eigentum der Stack Exchange Inc.",
+            "hotname": "^su(?:$| (.*))",
+            "row": 1,
+            "image": "",
+            "uri": "http://superuser.com/search?q=%s",
+            "encoding": "utf-8"
+        },
+"jquery": {
+            "name": "jQuery",
+            "impressum": "jQuery und das jQuery Logo sind Eigentum der The jQuery Foundation",
+            "hotname": "^jq(?:$| (.*))",
+            "row": 1,
+            "image": "",
+            "uri": "http://jquery.com/?s=%s",
+            "encoding": "utf-8"
+        },
+"jquery-ui": {
+            "name": "jQuery UI",
+            "impressum": "jQuery UI und das jQuery UI Logo sind Eigentum der The jQuery Foundation",
+            "hotname": "^jqueryui(?:$| (.*))",
+            "row": 1,
+            "image": "",
+            "uri": "http://jqueryui.com/?s=%s",
+            "encoding": "utf-8"
+        },
+"jquery-mobile": {
+            "name": "jQuery Mobile",
+            "impressum": "jQuery Mobile und das jQuery Mobile Logo sind Eigentum der The jQuery Foundation",
+            "hotname": "^jquerymobile(?:$| (.*))",
+            "row": 1,
+            "image": "",
+            "uri": "http://jquerymobile.com/?s=%s",
+            "encoding": "utf-8"
+        },
+  "gccode": {
+            "name": "Geocaching.com GCCode",
+            "impressum": "Geocaching.com&trade; sowie das Geocaching.com Logo sind Marken von Groundspeak, Inc.",
+            "hotname": "^(GC.{4,5})$",
+            "row": 1,
+            "image": "",
+            "uri": "http://www.geocaching.com/geocache/%s",
+            "encoding": "utf-8"
+        },
+  "gc.com": {
+            "name": "Geocaching.com",
+            "impressum": "Geocaching.com&trade; sowie das Geocaching.com Logo sind Marken von Groundspeak, Inc.",
+            "hotname": "^gc(?:$| (.*))",
+            "row": 1,
+            "image": "",
+            "uri": "http://www.geocaching.com/seek/nearest.aspx?key=%s",
+            "encoding": "utf-8"
+        },
+  "dhl": {
+            "name": "DHL",
+            "impressum": "DHL&trade; so wie das DHL Logo sind Marken von Deutsche Post AG",
+            "hotname": "^dhl(?:$| (.*))",
+            "row": 1,
+            "image": "images/dhl.ico",
+            "uri": "http://nolp.dhl.de/nextt-online-public/set_identcodes.do?lang=de&idc=%s",
+            "encoding": "utf-8"
+        },
+  "yahoo": {
+            "name": "Yahoo!",
+            "impressum": "YAHOO&trade; sowie das Yahoo Logo sind Marken von Yahoo! Inc.",
+            "hotname": "^yahoo(?:$| (.*))",
+            "row": 1,
+            "image": "",
+            "uri": "http://de.search.yahoo.com/search?p=%s",
+            "encoding": "utf-8"
+        }
+}
+
+

@@ -1,0 +1,65 @@
+{
+    "engines": [
+        {
+            "name": "Google",
+            "impressum": "GOOGLE&trade; so wie das Google Logo sind Marken von Google Inc.",
+            "id": "google",
+            "hotname": "^g (.*)",
+            "row": 0,
+            "image": "images/engines/google.png",
+            "uri": "https://www.google.de/search?q=%s",
+            "encoding": "utf-8"
+        },
+        {
+            "name": "Wikipedia",
+            "impressum": "WIKIPEDIA&#174; ist eine eingetragene Marke der Wikimedia Foundation Inc.",
+            "id": "wiki",
+            "hotname": "^w (.*)",
+            "row": 0,
+            "image": "images/engines/wikipedia.png",
+            "uri": "http://de.wikipedia.org/w/index.php?&search=%s",
+            "encoding": "utf-8"
+        },
+        {
+            "name": "Amazon.de",
+            "impressum": "Amazon.de&trage; sowie das Amazon.de Logo sind Marken der Amazon.de GmbH",
+            "id": "amazon",
+            "hotname": "^a (.*)",
+            "row": 0,
+            "image": "images/engines/amazon.png",
+            "uri": "http://www.amazon.de/s/field-keywords=%s",
+            "encoding": "utf-8"
+        },
+        {
+            "name": "Wolfram|Alpha",
+            "impressum": "WOLFRAM ALPHA&trade; sowie das Wolfram Alpha Logo sind Marken der Wolfram Research Company",
+            "id": "wolframalpha",
+            "hotname": "^wa (.*)",
+            "row": 0,
+            "image": "images/engines/wolfram.png",
+            "uri": "http://www.wolframalpha.com/input/?i=%s",
+            "encoding": "utf-8"
+        },
+        {
+            "name": "Geocaching.com GCCode",
+            "impressum": "Geocaching.com&trade; sowie das Geocaching.com Logo sind Marken von Groundspeak, Inc.",
+            "id": "gccode",
+            "hotname": "^gc (GC.{4,5})$",
+            "row": 1,
+            "image": "images/engines/geocaching.png",
+            "uri": "http://www.geocaching.com/geocache/%s",
+            "encoding": "utf-8"
+        },
+        {
+            "name": "Geocaching.com",
+            "impressum": "Geocaching.com&trade; sowie das Geocaching.com Logo sind Marken von Groundspeak, Inc.",
+            "id": "gc.com",
+            "hotname": "^gc (.*)",
+            "row": 1,
+            "image": "images/engines/geocaching.png",
+            "uri": "http://www.geocaching.com/seek/nearest.aspx?key=%s",
+            "encoding": "utf-8"
+        }
+    ]
+}
+

@@ -1,0 +1,84 @@
+<html>
+<head>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery-ui.js"></script>
+<script>
+
+function getDegreeValue(v){
+  var sign = 1;
+  var d = 0;
+  var factor = 1;
+  if(v.match(/^[W|S|-]/i)){ sign = -1; }
+  var n = v.replace(/[^0-9.]/gi," ");
+  n = n.replace(/\s+/gi," ");
+  n = n.trim();
+  var r = n.split(' ');
+  for (var i = 0; i < r.length; i++){
+    d += r[i] * factor;
+    factor /= 60;
+  }
+  return d * sign;
+}
+
+function doPrecision(v, p){
+  return Math.round(v * Math.pow(10, p)) / Math.pow(10, p);
+}
+
+function getConvertedCoords(v){
+  var sign = "";
+  var directionLetter = "";
+  if(match = v.match(/^([N|S|W|E|O])/i)){
+    directionLetter = match[1].toUpperCase();
+    if(directionLetter == "O"){
+      directionLetter = "E";
+    }
+  }
+  var r = getDegreeValue(v);
+  if(r < 0){ sign = "-"; r = -r; }
+  var grad = Math.floor(r);
+  
+  var decMinutes = (r - grad) * 60;
+  var decSeconds = (decMinutes - Math.floor(decMinutes)) * 60;
+  
+  var decimalGrad = sign + doPrecision(r,6);
+  var dezimalMinuten = directionLetter + " " + grad + "°" + doPrecision(decMinutes,3) + "'";
+  var dezimalSekunden = directionLetter + " " + grad + "°" + Math.floor(decMinutes) + "' " + doPrecision(decSeconds,2) + '"';
+  
+  return [decimalGrad, dezimalMinuten, dezimalSekunden ];
+}
+
+function parseCoords(c){
+  var input = c.trim();
+  //var gradMinutenSekundenRegex = /^((?:[N|S|-]?\s*\d+°?\s*\d+'\s*\d+[\.|,]\d+")|(?:[N|S|-]?\s*\d+°?\s*\d+[\.|,]\d+'?)),?\s*((?:[E|W|O|-]?\s*\d+°?\s*\d+'\s*\d+[\.|,]\d+")|(?:[E|W|O|-]?\s*\d+°?\s*\d+[\.|,]\d+'?))/gi;
+  var gradMinutenSekundenRegex = /^((?:[N|S|-]?\s*\d+°?\s*\d+'\s*\d+[\.|,]\d+")|(?:[N|S|-]?\s*\d+°?\s*\d+[\.|,]\d+'?))|(?:[N|S|-]?\s*\d+\.\d+),?\s*((?:[E|W|O|-]?\s*\d+°?\s*\d+'\s*\d+[\.|,]\d+")|(?:[E|W|O|-]?\s*\d+°?\s*\d+[\.|,]\d+'?)|(?:[E|W|O|-]?\s*\d+\.\d+))/gi;
+  var matches = gradMinutenSekundenRegex.exec(input);
+  console.log(matches);
+  var north;
+  var east;
+  if(matches){
+    north = getConvertedCoords(matches[1]);
+    east = getConvertedCoords(matches[2]);
+  $("#umgerechnet").html(north[0] + ", " + east[0] + "<br />" + north[1] + ", " + east[1] + "<br />" + north[2] + ", " + east[2]);
+  }
+
+}
+
+
+$(function() {
+  $("#btnCoords").button().click(function(event){
+      var input = $("#coords").val();
+      parseCoords(input);
+  });
+});
+
+</script> 
+</head>
+<body>
+  <form method="get" action="">
+    <input id="coords" type="text" size="50" name="coords">
+    <span id="btnCoords">umrechnen</span>
+  </form>
+<div id="umgerechnet">
+</div>
+</body>
+</html>
